@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+caption{
+    font-family: "HGP創英角ｺﾞｼｯｸUB", "HGP創英角ﾎﾟｯﾌﾟ体", serif;
+    
+}
+table, th, tr, td{
+    border: solid 3px black
+}
+table, th, td{
+    border-collapse: collapse;
+}
+table{
+    margin: auto;
+}
+th, tr, td{
+    text-align: center;
+}
+thead{
+    background-color: rgba(255,127,80,0.5);
+}
+img{
+    width: 70%;
+}
