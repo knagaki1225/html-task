@@ -1,0 +1,10 @@
+@charset "utf-8";
+.color-orange{
+    color: orange;
+}
+.color-blue{
+    color: aqua;
+}
+span{
+    font-weight: bold;
+}
