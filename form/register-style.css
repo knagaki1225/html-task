@@ -1,0 +1,30 @@
+@charset "utf-8";
+.required{
+    background-color: red;
+    font-size: 8px;
+    border-radius: 3px;
+    color: white;
+}
+.sub{
+    font-size: 8px;
+}
+.left{
+    background-color: #787065;
+    color: white;
+    vertical-align: top;
+    padding: 20px;
+    font-weight: bold;
+}
+.right{
+    background-color: #d1ccc6;
+}
+.black{
+    background-color: #91887f;
+}
+tr{
+    width: auto;
+    height: 30px;
+}
+button{
+    width: 150px;
+}
