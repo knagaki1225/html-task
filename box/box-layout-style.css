@@ -2,8 +2,9 @@
 
 .item{
     text-align: center;
-    width: 300px;
+    width: 25%;
     margin: 20px;
+    padding: 10px;
     background-color: aquamarine;
 }
 
@@ -41,5 +42,14 @@ h1{
 }
 
 p{
-    padding: 8px;
+    width: 90%;
+}
+
+h2{
+    width: 90%;
+}
+
+.item h2, p{
+    margin: 0 auto;
+    padding: 10px;
 }
