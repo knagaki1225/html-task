@@ -5,3 +5,11 @@
 .mark-list {
     list-style: "★";
 }
+
+main ul div li, main ul div p{
+    font-size: 25px;
+}
+
+main ul div{
+    padding: 15px;
+}

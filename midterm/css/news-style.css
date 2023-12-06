@@ -23,3 +23,7 @@ h2{
 .item{
     padding: 2rem;
 }
+
+body h2{
+    padding: 50px;
+}
