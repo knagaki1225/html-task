@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+table{
+    width: 30%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 3rem;
+}
+
+td{
+    text-align: center;
+}
+
+.table_head{
+    background-color: #eeeeee;
+}
+
+.table_odd{
+    background-color: #eff7ff;
+}
+
+.table_even{
+    background-color: #eeeeee;
+}
+
+.container{
+    display: flex;
+}
+
+.container main{
+    width: 65%;
+}
+
+.container aside{
+    width: 35%;
+}
+
+.container table{
+    width: 100%;
+    height: 100%;
+}
+
+.container section{
+    padding: 2rem;
+}

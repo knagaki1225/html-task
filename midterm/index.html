@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="css/all-style.css">
+    <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link rel="icon" href="img/icon.jpg">
+    <title>HTML/CSS 中間課題</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="html/history.html">ITの歴史</a></li>
+                <li><a href="html/company_1.html">気になる企業</a></li>
+                <li><a href="html/news.html">気になったニュース</a></li>
+                <li><a href="html/self-introduction.html">自己紹介</a></li>
+            </ul>
+            <ol class="breadcrumbs">
+                <li><a href="#">Home</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <div class="title">
+            <h1>HTML/CSS 中間課題</h1>
+            <!-- <ul>
+                <li>4232113</li>
+                <li>総合システム工学科</li>
+                <li>長岐和哉</li>
+            </ul> -->
+        </div>
+
+        <!-- <ul class="slider">
+            <li><img src="img/index/task_img.png"></li>
+            <li><a href="html/history.html"><img src="img/index/PC_index.png" alt=""></a></li>
+            <li><a href="html/company.html"><img src="img/index/building_index.png" alt=""></a></li>
+            <li><a href="html/news.html"><img src="img/index/newspaper_index.png" alt=""></a></li>
+            <li><a href="html/self-introduction.html"><img src="img/index/jikosyoukai_index.png" alt=""></a></li>
+        </ul> -->
+
+        <!-- <div class="page_flex">
+            <div class="page_item">
+                <a href="html/history.html"><img src="img/index/PC_index.png" alt="ITの歴史"></a>
+                <p>ITの歴史</p>
+            </div>
+
+            <div class="page_item">
+                <a href="html/company.html"><img src="img/index/building_index.png" alt="気になる企業"></a>
+                <p>気になる企業</p>
+            </div>
+        </div>
+        <div class="page_flex">
+            <div class="page_item">
+                <a href="html/news.html"><img src="img/index/newspaper_index.png" alt="気になるニュース"></a>
+                <p>気になるニュース</p>
+            </div>
+
+            <div class="page_item">
+                <a href="html/self-introduction.html"><img src="img/index/jikosyoukai_index.png" alt="自己紹介"></a>
+                <p>自己紹介</p>
+            </div>
+        </div> -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="s-item"><img src="img/index/name.jpg" class="d-block w-100" alt="..."></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="s-item"><img src="img/index/task_img.png" class="d-block w-100" alt="..."></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="s-item"><img src="img/index/PC_index.png" class="d-block w-100" alt="..."></div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="l-li">
+            <li><a href="html/history.html">ITの歴史</a></li>
+            <li><a href="html/company_1.html">気になる企業</a></li>
+            <li><a href="html/news.html">気になるニュース</a></li>
+            <li><a href="html/self-introduction.html">自己紹介</a></li>
+        </div>
+
+    </main>
+    <footer>
+        <div class="sns_box">
+            <div class="sns_item">
+                <a href="https://line.me/R/ti/p/@498xrxml">
+                    <img src="img/sns_ico_line.png" alt="公式LINE">
+                </a>
+            </div>
+            <div class="sns_item">
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fmorijyobi_olive">
+                    <img src="img/sns_ico_tw.png" alt="公式Twitter">
+                </a>
+            </div>
+            <div class="sns_item">
+                <a href="https://www.instagram.com/morijyobi_official/">
+                    <img src="img/sns_ico_ig.png" alt="公式インスタグラム">
+                </a>
+            </div>
+            <div class="sns_item">
+                <a href="https://www.facebook.com/morijyobi/">
+                    <img src="img/sns_ico_fb.png" alt="公式Facebook">
+                </a>
+            </div>
+            <div class="sns_item">
+                <a href="https://www.youtube.com/channel/UCAKPgACb02tmwJKZDAlQENA">
+                    <img src="img/sns_ico_yt.png" alt="公式YouTube">
+                </a>
+            </div>
+        </div>
+        <div class="copylight">
+            <p>&copy; Kazuya Nagaki</p>
+        </div>
+    </footer>
+    <script src="index-script.js"></script>
+</body>
+
+</html>

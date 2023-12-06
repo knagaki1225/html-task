@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+html{
+    font-family: HGP明朝E;
+}
+
+header, footer{
+    background-color: #c4a3bf;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+header nav ul{
+    display: flex;
+    padding: 0%;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+header nav ul li{
+    width: 100%;
+    text-align: center;
+
+}
+
+header ul li a{
+    display: block;
+    padding: 0.5rem;
+    color: #544a47;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li + li{
+    border-left: #887f7a solid 2px;
+}
+
+.breadcrumbs{
+    list-style: none;
+    display: flex;
+}
+
+.breadcrumbs li::after{
+    content: ">";
+    padding: 0 0.5rem;
+}
+
+.footer_first{
+    display: flex;
+}
+
+.footer_first p{
+    padding: 10%;
+    font-size: 2rem;
+}
+
+.footer_first_item{
+    justify-content: center;
+}
+
+.footer_img{
+    width: 30%;
+    padding: 0 0 0 10%;
+}
+
+.breadcrumbs li:last-child::after{
+    content: "";
+}
+
+.sns_box{
+    display: flex;
+    justify-content: center;
+}
+
+.sns_item{
+    width: 5%;
+    height: 5%;
+    margin: 0.5rem;
+}
+
+.copylight {
+    text-align: center;
+}
+
+body{
+    min-width: 1000px;
+}
+

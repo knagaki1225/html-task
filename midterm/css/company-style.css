@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.company{
+    height: 33.3%;
+    width: 100%;
+    padding: 3rem;
+}
+
+.logo{
+    height: 30%;
+}
+
+.logo img{
+    height: 40%;
+    width: 30%;
+}
