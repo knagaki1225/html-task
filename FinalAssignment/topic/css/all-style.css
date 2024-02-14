@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+body {
+    background-image: url(../img/main-river.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    margin: 0;
+    font-family: "Noto Sans JP Black";
+}
+
+header {
+    background-color: white;
+    width: 40%;
+    height: 50px;
+    margin-left: 50%;
+    border-radius: 20px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    height: 50px;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    text-align: center;
+    display: table;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.a-animation {
+    font-family: "Century Gothic";
+
+}
+
+.a-animation:hover {
+    background-color: black;
+    color: white;
+}
+
+.topic {
+    display: flex;
+    background-color: #fefefe;
+    margin-top: 100px;
+}
+
+main {
+    width: 70%;
+    margin-left: 50px;
+}
+
+main section {
+    margin-top: 50px;
+}
+
+aside {
+    width: 30%;
+}
+
+main h1 {
+    border-bottom: 1px solid #cccccc;
+}
+
+.icon::before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #75f5ee;
+}
+
+.photo-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.photo-list li {
+    list-style-type: none;
+    width: 170px;
+    height: 170px;
+}
+
+.photo-list li img {
+    width: 100%;
+}
+
+.sidebar{
+    margin-left: 50px;
+}
+
+.sidebar ul {
+    list-style-position: inside;
+}
+
+.sidebar ul a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.sidebar ul a:hover{
+    text-decoration:underline
+}
+
+footer{
+    height: 80px;
+    text-align: center;
+    color: wheat;
+}
